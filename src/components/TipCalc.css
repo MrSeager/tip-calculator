@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
+
+body {
+    font-family: 'Space Mono', sans-serif !important;
+    background-color: hsl(185, 41%, 84%);
+}
+
+.cs-w {
+    width: 60% !important;
+}
+
+.cs-h {
+    min-height: 100vh;
+}
+
+/*Font*/
+.cs-fc {
+    color: hsl(183, 100%, 15%);
+}
+
+/*Background*/
+.cs-bg {
+    background-color: hsl(189, 41%, 97%) !important;
+}
+
+/*Buttons*/
+.cs-btn {
+    background-color: hsl(183, 100%, 15%) !important;
+}
