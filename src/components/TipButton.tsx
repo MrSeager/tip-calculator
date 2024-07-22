@@ -10,7 +10,7 @@ type TipButtonProps = {
 
 const TipButton: FC<TipButtonProps> = ({ value }) => {
     return (
-        <Button className='w-100 cs-btn border-0'>{value}%</Button>
+        <Button className='w-100 cs-flex-el cs-fw-7 cs-btn border-0 fs-5'>{value}%</Button>
     );
 }
 

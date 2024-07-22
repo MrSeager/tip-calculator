@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Space Mono', sans-serif !important;
-    background-color: hsl(185, 41%, 84%);
+    background-color: hsl(185, 41%, 84%) !important;
 }
 
 .cs-w {
@@ -13,9 +13,36 @@ body {
     min-height: 100vh;
 }
 
+.cs-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cs-flex-el {
+    flex: 0 0 30%;
+}
+
 /*Font*/
 .cs-fc {
-    color: hsl(183, 100%, 15%);
+    color: hsl(183, 100%, 15%) !important;
+}
+
+.cs-fc-2 {
+    color: hsl(172, 67%, 45%) !important;
+}
+
+.cs-fw-7 {
+    font-weight: 700 !important;
+}
+
+.cs-ph-fc::placeholder {
+    color: hsl(184, 14%, 56%) !important;
+}
+
+.cs-ph-fc-2::placeholder {
+    color: hsl(183, 100%, 15%) !important;
 }
 
 /*Background*/
@@ -23,7 +50,42 @@ body {
     background-color: hsl(189, 41%, 97%) !important;
 }
 
+.cs-bg-2 {
+    background-color: hsl(183, 100%, 15%) !important;
+}
+
 /*Buttons*/
 .cs-btn {
     background-color: hsl(183, 100%, 15%) !important;
+    transition: .3s !important;
+}
+
+.cs-btn:hover {
+    background-color: hsl(172, 67%, 45%) !important;
+    color: hsl(183, 100%, 15%) !important;
+}
+
+.cs-btn-2 {
+    background-color: hsl(172, 67%, 45%) !important;
+    color: hsl(183, 100%, 15%) !important;
+    transition: .3s !important;
+}
+
+.cs-btn-2:hover {
+    background-color: hsl(183, 100%, 15%) !important;
+    color: hsl(172, 67%, 45%) !important;
+}
+
+.cs-btn-2:disabled {
+    opacity: .5 !important;
+}
+
+@media (max-width: 921px) {
+    .cs-w {
+        width: 100% !important;
+    }
+
+    .cs-flex-el {
+        flex: 0 0 48.5%;
+    }
 }
