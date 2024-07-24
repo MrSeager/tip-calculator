@@ -24,6 +24,14 @@ body {
     flex: 0 0 30%;
 }
 
+.cs-br {
+    border-radius: 25px !important;
+}
+
+.cs-br-2 {
+    border-radius: 20px !important;
+}
+
 /*Font*/
 .cs-fc {
     color: hsl(183, 100%, 15%) !important;
@@ -87,5 +95,9 @@ body {
 
     .cs-flex-el {
         flex: 0 0 48.5%;
+    }
+
+    .cs-br {
+        border-radius: 25px 25px 0 0 !important;
     }
 }
