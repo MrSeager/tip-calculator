@@ -32,6 +32,11 @@ body {
     border-radius: 20px !important;
 }
 
+.cs-outline {
+    outline: solid 2px red !important;
+    border-radius: 5px !important;
+}
+
 /*Font*/
 .cs-fc {
     color: hsl(183, 100%, 15%) !important;
@@ -88,7 +93,7 @@ body {
     opacity: .5 !important;
 }
 
-@media (max-width: 921px) {
+@media (max-width: 991px) {
     .cs-w {
         width: 100% !important;
     }
